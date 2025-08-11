@@ -1,10 +1,10 @@
-# cortex-analyzers
+# Cortex Analyzers
 Collection of multiple cortex analyzers
 
-# Deployment
+## Deployment
 See the original [documentation](https://thehive-project.github.io/Cortex-Analyzers/dev_guides/dockerize-your-custom-analyzers-responders/) for additional guideline.
 
-# UrlListCheck
+## UrlListCheck
 Data Types: URL, Domain, FQDN
 
 Checks if URL or Domain is present on a bad url list after creating some additional variations of the original url/domain.
