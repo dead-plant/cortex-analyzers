@@ -1,6 +1,9 @@
 # cortex-analyzers
 Collection of multiple cortex analyzers
 
+# Deployment
+See the original [documentation](https://thehive-project.github.io/Cortex-Analyzers/dev_guides/dockerize-your-custom-analyzers-responders/) for additional guideline.
+
 # UrlListCheck
 Data Types: URL, Domain, FQDN
 
