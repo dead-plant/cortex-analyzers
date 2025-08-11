@@ -1,0 +1,8 @@
+# Cortex <-> analyzer I/O helpers
+cortexutils>=2.2,<3
+
+# URL/domain parsing with Public Suffix List
+tldextract>=3,<4
+
+# Likely used by your downloader-v2.py (TLS, ca_cert, timeouts, etc.)
+requests>=2.31,<3

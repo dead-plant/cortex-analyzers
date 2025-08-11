@@ -1,0 +1,43 @@
+{
+  "name": "UrlListCheck",
+  "version": "1.3",
+  "author": "Alexander Stocker",
+  "url": "https://github.com/dead-plant/cortex-analyzers/tree/main/UrlListCheck",
+  "license": " GPL-3.0",
+  "description": "Checks if a URL or Domain is present in the list provided (http/s)",
+  "dataTypeList": ["url", "domain", "fqdn"],
+  "baseConfig": "UrlListCheck",
+  "config": {
+    "service": "check",
+    "check_tlp": true,
+    "max_tlp": 3,
+    "check_pap": true,
+    "max_pap": 3
+  },
+  "configurationItems": [
+    {
+      "name": "url",
+      "description": "List download URL",
+      "type": "string",
+      "multi": false,
+      "required": true
+    },
+    {
+      "name": "verify_tls",
+      "description": "Verify TLS certificates",
+      "type": "boolean",
+      "multi": false,
+      "required": false,
+      "defaultValue": true
+    },
+    {
+      "name": "timeout",
+      "description": "Download timeout (seconds)",
+      "type": "number",
+      "multi": false,
+      "required": false,
+      "defaultValue": 60
+    }
+  ],
+  "command": "UrlListCheck/url_list_check_entrypoint.py"
+}
