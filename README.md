@@ -1,5 +1,5 @@
 # Cortex Neurons
-This is a collections of cortex neurons (analyzers / responders ) I developed.
+This is a collections of cortex neurons (analyzers / responders) I developed.
 See the README in /analyzers/ and /responders/ for additional information.
 
 ## Deployment
